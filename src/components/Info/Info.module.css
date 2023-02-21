@@ -1,0 +1,94 @@
+.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.time_wrapper {
+    width: 220px;
+    padding: 2px 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8e194;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time_icon{
+    background-color: rgb(181, 251, 249);
+    border-radius: 50%;
+    padding: 2px;
+    height: 25px;
+    width: 25px;
+    color: black;
+}
+.time_text{
+    color: black;
+}
+
+.info__present {
+    height: 150px;
+    margin-top: 20px;
+    background-color: rgb(234, 185, 111);
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 30px;
+
+}
+
+.subtitle {
+    margin-top: 20px;
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.tab_wrapper {
+    width: 100%;
+    background: rgb(26, 36, 27);
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 0 4px 4px 4px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.tabs_content {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tab{
+    background: white;
+    padding: 10px;
+}
+.tab_container {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.tabs_list {
+    margin-top: 20px;
+    padding: 10px
+}
+
+.tabs_item {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.tabs_info{
+    display: none;
+}
+.content_active{
+    display: block;
+}

@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.container > div{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+}
+.item{
+    font-size: 18px;
+    line-height: 20px;
+    width: 150px;
+    flex: 1;
+}
