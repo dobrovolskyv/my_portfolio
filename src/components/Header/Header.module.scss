@@ -1,0 +1,119 @@
+@import "../../index.scss";
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+
+.info__present {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.undertitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 58px;
+    font-size: 58px;
+    color: var(#{--text-color-default});
+    
+}
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 58px;
+    margin-top: 10px;
+    color: var(#{--text-color-default});
+
+}
+
+.subtitle {
+    margin-top: 20px;
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(#{--text-color-default});
+}
+
+.tabs {
+    &_wrapper {
+        width: 100%;
+        background: rgb(54, 0, 56);;
+        height: 600px;
+        border-radius: 10px;
+        margin-top: 80px;
+        box-shadow: 0 0 200px -60px white;
+    }
+    &_head{
+        background-color: rgb(22, 1, 23);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      
+    }
+    &_content {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        border-top-left-radius: 10px;
+        & div{
+            
+            padding: 10px;
+        }
+    }
+    &_link{
+       
+        border-top-left-radius: 10px;
+    }
+}
+
+.tab{
+    border: solid white;
+    border-width: 1px 1px 0px 0px;
+    border-top-left-radius: 6px;
+
+}
+
+.tabs_list {
+    margin-top: 20px;
+    padding: 10px
+}
+
+.tabs_item {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.tabs_info{
+    display: none;
+}
+.content_active{
+    display: block;
+}
+.skills >li{
+    display: flex;
+    align-items: center;
+}
+.load{
+    width: 100px;
+    height: 10px;
+    border: 1px solid white;
+    position: relative;
+    &::after{
+        content: '';
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        position: absolute;
+        top: 0;
+    }
+}

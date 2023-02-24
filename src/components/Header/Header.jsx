@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, Outlet } from 'react-router-dom'
-import s from "./Info.module.scss"
+import s from "./Header.module.scss"
 import {DiHtml5, DiCss3,DiJavascript1,DiReact, DiGithubBadge} from 'react-icons/di'
 import {SiTypescript,SiFlutter,SiBlender} from 'react-icons/si'
 import Contacts from '../Contacts/Contacts.jsx'
@@ -8,7 +8,7 @@ import ExperienceInfo from '../ExperienceInfo/ExperienceInfo';
 
 
 
-function Bg() {
+function Header() {
 
   const [toggleState, setToggleState] = useState(1);
 
@@ -20,34 +20,35 @@ function Bg() {
     <div className={s.container}>
       
       <div className={s.info__present}>
-        <h1 className={s.title}>Hello, I'm Vlados Dobrovolskii</h1>
+        <p className={s.undertitle}>Hello, I'm</p>
+        <h1 className={s.title}> Vlados Dobrovolskii</h1>
         <p className={s.subtitle}>I'm a Front-end developer who has unending enthusiasm for solving problems and learning new knowledge.</p>
       </div>
-      <div className={s.tab_wrapper}>
-        <div>
+      <div className={s.tabs_wrapper}>
+        <div className={s.tabs_head}>
           <div className={s.tabs_content}>
-          <Link to='/'>
-          <div className={toggleState === 1 ? `${s.tab_container}` : `${s.tab}`} onClick={() => { toggleTab(1) }}>
+          <Link className={s.tabs_link} to='/works'>
+          <div className={toggleState === 1 ? `${s.tab}`  : `${s.tab_container}`} onClick={() => { toggleTab(1) }}>
             <p>
               About.jsx
             </p>
           </div>
           </Link>
-          
-          <Link to='/experience'>
-            <div className={toggleState === 2 ? `${s.tab_container}` : `${s.tab}`} onClick={() => { toggleTab(2) }}>
+          <Link className={s.tabs_link} to='/'>
+          <div className={toggleState === 2 ? `${s.tab}` : `${s.tab_container}`} onClick={() => { toggleTab(2) }}>
               <p>
-                Experience
+                Experience.jsx
               </p>
             </div>
           </Link>
-
-          <div className={toggleState === 3 ? `${s.tab_container}` : `${s.tab}`} onClick={() => { toggleTab(3) }}>
+          <Link className={s.tabs_link} to='/'>
+          <div className={toggleState === 3 ? `${s.tab}` : `${s.tab_container}`} onClick={() => { toggleTab(3) }}>
             <p>
-              Contacts
+              Contacts.jsx
               
             </p>
           </div>
+          </Link>
         </div>
         </div>
         
@@ -96,4 +97,4 @@ function Bg() {
   )
 }
 
-export default Bg
+export default Header 

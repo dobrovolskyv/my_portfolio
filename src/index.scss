@@ -3,7 +3,7 @@ $body-bg-light: #f5e6bb;
 $body-bg-default: var(--body-bg-light);
 
 /* color text */
-$text-color-dark: #ef5757;
+$text-color-dark: #ffffff;
 $text-color-light: #32cd73;
 $text-color-default: var(--text-color-dark);
 
@@ -18,6 +18,8 @@ $text-color-default: var(--text-color-dark);
   --text-color-light: #{$text-color-light};
   --text-color-default: var(#{--text-color-dark});
 }
+// variable
+
 
 *,
 *::before,
@@ -39,13 +41,26 @@ body{
   color: #e3dddf;
   font-size: 16px;
   line-height: 18px;
-  /* font-family: 'Merriweather', serif; */
+  // letter-spacing: 2px;
+  // font-family: 'Dosis', sans-serif;
   font-family: 'Ubuntu', sans-serif;
 }
 .container{
   max-width: 900px;
   margin: 0 auto;
+  &::before{
+    content: '';
+    width: 100vw;
+    height: 60px;
+    position: absolute;
+    border-bottom: 1px solid rgba(7, 20, 27, 0.2);
+   
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
+}
+
 
 #cursor, 
 #aura{

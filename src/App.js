@@ -2,11 +2,11 @@ import {Link, Routes, Route} from "react-router-dom"
 import "./index.scss"
 import HomeScreen from './pages/Home/Home';
 import Experience from "./pages/Experience/Experience";
-import About from './pages/About/About'
+import About from './components/About/About'
 
 // import {TweenMax, GSAP} from 'gsap';
 import NavBar from './components/NavBar/NavBar';
-import Bg from "./components/Info/Info";
+import Header from "./components/Header/Header";
 import Works from "./pages/Works/Works";
 import Footer from "./components/Footer/Footer";
 
@@ -19,8 +19,8 @@ function App() {
     <div className="container">
       <div id="aura"></div>
       <div id="cursor"></div>
-      <NavBar/>
-      <Bg/>
+      <NavBar className="nav"/>
+      <Header/>
       <Routes>
        
           <Route path='/' element={<HomeScreen/>}/>

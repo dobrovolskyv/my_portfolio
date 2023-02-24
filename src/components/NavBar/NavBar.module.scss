@@ -1,0 +1,72 @@
+@import '../../index.scss';
+.navBar_wrapper{
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    position: relative;
+    margin-top: 10px;
+    & > div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo_img{
+    height: 30px;
+    width: 20px;
+}
+.logo_text{
+    color: $text-color-dark;
+    font-size: 18px;
+}
+.time_wrapper {
+    width: 240px;
+    padding: 2px 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(89,89,102);
+    background: linear-gradient(90deg, rgba(89,89,102,0.5) 0%, rgba(90,109,153,0.5) 0%, rgba(112,110,152,0.5) 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    
+   
+}
+.time_icon{
+    background-color: rgb(232, 246, 251);
+    border-radius: 50%;
+    padding: 2px;
+    height: 25px;
+    width: 25px;
+    color: black;
+  
+}
+.time_text{
+    color: $text-color-dark;
+}
+.color_scheme{
+   
+    height: 30px;
+    
+    background: rgb(89,89,102);
+    background: linear-gradient(90deg, rgba(89,89,102,0.5) 0%, rgba(90,109,153,0.5) 0%, rgba(112,110,152,0.5) 100%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: rgb(89,89,102);
+        background: linear-gradient(90deg, rgba(89,89,102,0.5) 0%, rgba(90,109,153,0.5) 0%, rgba(112,110,152,0.5) 100%);
+    }
+}
+.burger{
+    height: 30px;
+    width: 30px;
+    margin-left: 40px;
+}
+

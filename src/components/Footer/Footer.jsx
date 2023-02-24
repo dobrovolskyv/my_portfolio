@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 
 const Footer = () => {
+
+
+
   return (
     <div>
         <ul>
@@ -17,6 +20,7 @@ const Footer = () => {
                 <p></p>
             </li>
         </ul>
+        <p>time in batumi</p>
     </div>
   )
 }
