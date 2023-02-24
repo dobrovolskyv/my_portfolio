@@ -1,14 +1,15 @@
 import {Link, Routes, Route} from "react-router-dom"
-import "./index.css"
+import "./index.scss"
 import HomeScreen from './pages/Home/Home';
 import Experience from "./pages/Experience/Experience";
-import Contacts from "./pages/Contacts/Contacts";
 import About from './pages/About/About'
 
 // import {TweenMax, GSAP} from 'gsap';
 import NavBar from './components/NavBar/NavBar';
 import Bg from "./components/Info/Info";
 import Works from "./pages/Works/Works";
+import Footer from "./components/Footer/Footer";
+
 
 
 function App() {
@@ -25,10 +26,11 @@ function App() {
           <Route path='/' element={<HomeScreen/>}/>
           <Route path='/experience' element={<Experience/>}/>
           <Route path='/works' element={<Works/>}/>
-          <Route path='/contacts' element={<Contacts/>}/>
+         
           <Route path='/about' element={<About/>}/>
        
       </Routes>
+      <Footer/>
     </div>
   );
 }

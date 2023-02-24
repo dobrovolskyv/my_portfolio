@@ -1,31 +1,11 @@
+@import "../../index.scss";
+
 .container {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.time_wrapper {
-    width: 220px;
-    padding: 2px 4px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #f8e194;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.time_icon{
-    background-color: rgb(181, 251, 249);
-    border-radius: 50%;
-    padding: 2px;
-    height: 25px;
-    width: 25px;
-    color: black;
-}
-.time_text{
-    color: black;
-}
 
 .info__present {
     height: 150px;
@@ -36,6 +16,7 @@
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     align-items: center;
+    color: var(#{--text-color-light});
 }
 
 .title {
@@ -54,17 +35,21 @@
 .tab_wrapper {
     width: 100%;
     background: rgb(26, 36, 27);
-    height: 400px;
+    height: 600px;
     border: 1px solid white;
     border-radius: 0 4px 4px 4px;
     margin-top: 40px;
     cursor: pointer;
+    box-shadow: 0 0 300px -60px white;
 }
-
+.tab_wrapper >div{
+    border-top: 1px solid white;
+}
 .tabs_content {
     width: 40%;
     display: flex;
     justify-content: space-between;
+    
 
 }
 .tab{
@@ -91,4 +76,22 @@
 }
 .content_active{
     display: block;
+}
+.skills >li{
+    display: flex;
+    align-items: center;
+}
+.load{
+    width: 100px;
+    height: 10px;
+    border: 1px solid white;
+    position: relative;
+    &::after{
+        content: '';
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        position: absolute;
+        top: 0;
+    }
 }

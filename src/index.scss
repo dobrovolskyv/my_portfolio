@@ -1,3 +1,24 @@
+$body-bg-dark: #21506c;
+$body-bg-light: #f5e6bb;
+$body-bg-default: var(--body-bg-light);
+
+/* color text */
+$text-color-dark: #ef5757;
+$text-color-light: #32cd73;
+$text-color-default: var(--text-color-dark);
+
+:root{
+  /* body background */
+  --body-bg-dark: #{$body-bg-dark};
+  --body-bg-light: #{$body-bg-light};
+  --body-bg-default: var(#{--body-bg-dark});
+
+  /* color text */
+  --text-color-dark: #{$text-color-dark};
+  --text-color-light: #{$text-color-light};
+  --text-color-default: var(#{--text-color-dark});
+}
+
 *,
 *::before,
 *::after{
@@ -14,10 +35,12 @@ ul,li{
 
 }
 body{
-  background-color: #21506c;
+  background-color: $body-bg-dark;
   color: #e3dddf;
   font-size: 16px;
   line-height: 18px;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Ubuntu', sans-serif;
 }
 .container{
   max-width: 900px;
