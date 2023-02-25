@@ -17,7 +17,7 @@ function Header() {
   }
 
   return (
-    <div className={s.container}>
+    <div className={s.header_container}>
 
       <div className={s.info__present}>
         <p className={s.undertitle}>Hello, I'm</p>

@@ -11,7 +11,7 @@ function HomeScreen() {
   
     return (
         <div className={s.content}>
-                 <Footer/>  
+                 
                 
 
         </div>

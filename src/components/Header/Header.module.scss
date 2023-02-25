@@ -1,6 +1,6 @@
 @import "../../index.scss";
 
-.container {
+.header_container {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -72,7 +72,7 @@
         }
     }
     &_link{
-       
+       color: white;
         border-top-left-radius: 10px;
     }
     &_bot{
@@ -96,6 +96,9 @@
     border-top-left-radius: 6px;
 
 }
+.tab_container{
+    color: rgb(212, 212, 212);
+}
 
 .tabs_list {
     margin-top: 20px;
@@ -111,7 +114,9 @@
     display: none;
 }
 .content_active{
+    
     display: block;
+    
 }
 .skills >li{
     display: flex;

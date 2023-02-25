@@ -6,7 +6,7 @@ import { SiTypescript, SiFlutter, SiBlender } from 'react-icons/si';
 function About() {
   return (
     <div className={s.about_container}>
-      <div className="about_info">
+      <div className={s.about_info}>
         <ul className={s.tabs_list}>
           <li className={s.tabs_item}>
             <p className={s.tabs_text}><span className={s.tabs_span}>1.</span> <span className={s.tabs_span_text}>&#60;p&#62;</span>  Im Vlados, a front-end developer and entrepreneur based now in Batumi, Geaorgia. <span className={s.tabs_span_text}>&#60;/p&#62;</span></p>
@@ -14,11 +14,17 @@ function About() {
           <li className={s.tabs_item}>
             <p className={s.tabs_text}><span className={s.tabs_span}>2.</span> I’m currently working at ____: The digital agency that harness the power of brands. At ____ we work with start-ups as well as established brands, crafting phenomenal digital products to help bring brands stand out in the crowd.</p>
           </li>
-          <li className={s.tabs_item}>
+          {/* <li className={s.tabs_item}>
             <p className={s.tabs_text}><span className={s.tabs_span}>3.</span> During my "spare" time, Im also working on freelance. This new fitness app helps you to reach your goals and stay on track with a sleek interface. It has everything from workout plans, food diary tools or even fasting tracker so there is no need for multiple apps anymore.</p>
-          </li>
+          </li> */}
           <li className={s.tabs_item}>
             <p className={s.tabs_text}><span className={s.tabs_span}>4.</span> Once the design is ready, it’s time to make your concept live. This is when my programming skills will be needed. I transform any designs to a high-quality end products with pixel-perfect check.</p>
+          </li>
+          <li className={s.tabs_item}>
+            <p className={s.tabs_text}><span className={s.tabs_span}>5.</span> Over the years I have spent time converting designs into
+              pixel-perfect, performant,accessible and responsive applications/websites.I have always been excited about the entire development spectrum,
+              so I frequently engage in backend. Well what can I say,I sincerely simply love working on ambitious projects with positive people
+              in a conducive work environment.</p>
           </li>
         </ul>
       </div>

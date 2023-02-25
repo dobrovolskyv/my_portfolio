@@ -1,28 +1,44 @@
 import React from 'react'
-import s from "./Works.module.css"
+import s from "./Works.module.scss"
 import img from '../../img/img1.png'
 
 function Works() {
   return (
     <div>
-     <div className={s.works_wrapper}>
- 
-     <img src={img} alt="" />
-     <p>Once the design is ready, it’s time to make your concept live. This is when my programming skills will be needed. I transform any designs to a high-quality end products with pixel-perfect check.</p>
-     <p>Over the years I have spent time converting designs into
-      pixel-perfect,
-      performant,
-      accessible
-      and responsive applications/websites.
-      I have always been excited about the entire development spectrum,
-      so I frequently engage in backend.
-      Well what can I say,
-      I sincerely simply love working on ambitious projects with positive people
-      in a conducive work environment.</p>
-     </div>
+      <div className={s.works_wrapper}>
+        <h2 className={s.works_title}>My projects</h2>
+        <div className={s.works_content}>
+          <div className={s.works_inner}>
+              <a href="https://dobrovolskyv.github.io/tester/" target="_blank">
+              <img className={s.works_img} src={img} alt="vokov fit" />
+
+              </a>
+            <div className={s.works_inner_textbox}>
+              <p className={s.works_undertitle}>&#60;project&#62;</p>
+              <h3>Volkov-fit</h3>
+              <p className={s.works_descr}>
+                A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+              </p>
+              <ul className={s.works_list}>
+                <li className={s.works_item}>
+                  <p>GULP</p>
+                </li>
+                <li className={s.works_item}>
+                  <p>SCSS</p>
+                </li>
+                <li className={s.works_item}>
+                  <p>JAVASCRIPT</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
 
     </div>
-    
+
   )
 }
 

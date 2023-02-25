@@ -1,26 +1,15 @@
 import React,{useState, useEffect} from 'react'
+import {Link} from "react-router-dom"
+import s from "./Footer.module.scss"
 
 const Footer = () => {
 
 
 
   return (
-    <div>
-        <ul>
-            <li>
-                <p>ABOUT</p>
-            </li>
-            <li>
-                <p>WORKS</p>
-            </li>
-            <li>
-                <p>CONTACTs</p>
-            </li>
-            <li>
-                <p></p>
-            </li>
-        </ul>
-        <p>time in batumi</p>
+    <div className={s.footer}>
+        <p className={s.copyright}>&#169; 2023 dob dev. All rights reserved.</p>
+        
     </div>
   )
 }

@@ -22,13 +22,10 @@ function App() {
       <NavBar className="nav"/>
       <Header/>
       <Routes>
-       
           <Route path='/' element={<HomeScreen/>}/>
           <Route path='/experience' element={<Experience/>}/>
           <Route path='/works' element={<Works/>}/>
-         
           <Route path='/about' element={<About/>}/>
-       
       </Routes>
       <Footer/>
     </div>
