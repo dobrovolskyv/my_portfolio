@@ -47,14 +47,15 @@
 .tabs {
     &_wrapper {
         width: 100%;
-        background: rgb(54, 0, 56);;
+        background:  #434B4D;
         height: 600px;
         border-radius: 10px;
         margin-top: 80px;
         box-shadow: 0 0 200px -60px white;
+        overflow: hidden;
     }
     &_head{
-        background-color: rgb(22, 1, 23);
+        background-color: #24211e;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
       
@@ -73,6 +74,19 @@
     &_link{
        
         border-top-left-radius: 10px;
+    }
+    &_bot{
+        padding: 20px 20px;
+        height: 100%;
+        overflow-y: scroll;
+        &::-webkit-scrollbar{
+            width: 8px;
+            height: 10%;
+            background-color: #434B4D;
+        }
+        &::-webkit-scrollbar-thumb{
+            background: #24211e;
+        }
     }
 }
 
@@ -102,18 +116,4 @@
 .skills >li{
     display: flex;
     align-items: center;
-}
-.load{
-    width: 100px;
-    height: 10px;
-    border: 1px solid white;
-    position: relative;
-    &::after{
-        content: '';
-        width: 80%;
-        height: 100%;
-        background-color: white;
-        position: absolute;
-        top: 0;
-    }
 }

@@ -1,0 +1,32 @@
+.contentbox{
+ 
+
+}
+.works{
+    &_list{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    &_item{
+        width: 200px;
+        margin-right: 30px;
+    }
+    &_date{
+        font-size: 14px;
+    }
+    &_box{
+        width: 500px;
+    }
+    &_position{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    &_stack{
+        font-size: 14px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+}
+

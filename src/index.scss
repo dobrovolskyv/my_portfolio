@@ -1,5 +1,5 @@
-$body-bg-dark: #21506c;
-$body-bg-light: #f5e6bb;
+$body-bg-dark: #0a2d42;
+$body-bg-light: #e6dcc2;
 $body-bg-default: var(--body-bg-light);
 
 /* color text */
@@ -41,9 +41,9 @@ body{
   color: #e3dddf;
   font-size: 16px;
   line-height: 18px;
-  // letter-spacing: 2px;
-  // font-family: 'Dosis', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+  font-family: 'Dosis', sans-serif;
+  // font-family: 'Ubuntu', sans-serif;
 }
 .container{
   max-width: 900px;
