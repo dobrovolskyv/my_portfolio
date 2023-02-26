@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link,  } from 'react-router-dom'
 import s from "./Header.module.scss"
 
 import Contacts from '../Contacts/Contacts.jsx'
@@ -8,20 +8,23 @@ import About from '../About/About';
 
 
 
-function Header() {
+function Header({textEnter, textLeave}) {
 
   const [toggleState, setToggleState] = useState(1);
 
   function toggleTab(index) {
     setToggleState(index)
   }
+ 
 
   return (
     <div className={s.header_container}>
 
       <div className={s.info__present}>
-        <p className={s.undertitle}>Hello, I'm</p>
-        <h1 className={s.title}> Vlados Dobrovolskii</h1>
+       
+        <p  onMouseEnter={textEnter} onMouseLeave={textLeave} className={s.undertitle}>Hello, I'm</p>
+        <h1 onMouseEnter={textEnter} onMouseLeave={textLeave} className={s.title}> Vlados Dobrovolskii</h1>
+       
         <p className={s.subtitle}>I'm a Front-end developer who has unending enthusiasm for solving problems and learning new knowledge.</p>
       </div>
       <div className={s.tabs_wrapper}>
