@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './Contacts.module.scss'
-import { FaFacebookF, FaInstagram, FaTelegramPlane, FaSpotify, FaLinkedinIn, FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTelegramPlane, FaSpotify, FaLinkedinIn, FaExternalLinkAlt, FaGithub, FaArtstation } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi'
 
 function Contacts() {
@@ -58,9 +58,16 @@ function Contacts() {
           <FaExternalLinkAlt className={s.contacts_img}/>
           </li>
           <li>
-            <a className={s.contacts_item_inner} href="" target='_blank' rel='noopener noreferrer'>
+            <a className={s.contacts_item_inner} href="https://www.linkedin.com/in/vladislav-dobrovolsky-99a175237" target='_blank' rel='noopener noreferrer'>
             <FaLinkedinIn className={s.contacts_img}/>
             <p className={s.contacts_item_text}>LinkedIn</p>
+            </a>
+          <FaExternalLinkAlt className={s.contacts_img}/>
+          </li>
+          <li>
+            <a className={s.contacts_item_inner} href="https://www.artstation.com/dobrovolsky_v" target='_blank' rel='noopener noreferrer'>
+            <FaArtstation className={s.contacts_img}/>
+            <p className={s.contacts_item_text}>ArtStation</p>
             </a>
           <FaExternalLinkAlt className={s.contacts_img}/>
           </li>

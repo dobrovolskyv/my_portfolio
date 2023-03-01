@@ -1,0 +1,74 @@
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0;
+    overflow: hidden;
+    transition: transform 0.5s ease-in;
+    z-index: 2;
+    &_wrapper{
+        text-align: right;
+        padding: 4px 0px;
+        width: 200px; 
+        height: 200px;
+        background-color: #434B4D;
+        border-radius: 10px;
+  
+    }
+    &_list{
+        margin-right: 20px;
+        font-size: 20px;
+        line-height: 140%;  
+       width: 30%;
+       margin-left: auto;
+    }
+    &_item{ 
+       
+       
+        margin-bottom: 10px;
+        & p{
+            display: inline-block;
+        
+        }
+        & p::after {
+            content: '';
+            display: block;
+            width: 10%;
+            height: 4px;
+            background: white;
+            transition: width .3s;
+        }
+      
+        & p:hover::after {
+            width: 100%;
+            transition: width .3s;
+        }
+    }
+}
+.burger_img{
+    height: 30px;
+    width: 30px;
+    margin-left: 40px;
+  
+}
+.active{
+    height: 300px;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
+li {
+   
+}
+
+.cool-link {
+   
+}
+
+
+

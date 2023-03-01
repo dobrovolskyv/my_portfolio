@@ -30,7 +30,7 @@ function Header({textEnter, textLeave}) {
       <div className={s.tabs_wrapper}>
         <div className={s.tabs_head}>
           <div className={s.tabs_content}>
-            <Link className={s.tabs_link} to='/works'>
+            <Link className={s.tabs_link} to='/'>
               <div className={toggleState === 1 ? `${s.tab}` : `${s.tab_container}`} onClick={() => { toggleTab(1) }}>
                 <p>
                   About.jsx
