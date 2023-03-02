@@ -9,7 +9,7 @@
     &_wrapper{
         text-align: right;
         padding: 4px 0px;
-        width: 200px; 
+        width: 170px; 
         height: 200px;
         background-color: #434B4D;
         border-radius: 10px;
@@ -19,8 +19,8 @@
         margin-right: 20px;
         font-size: 20px;
         line-height: 140%;  
-       width: 30%;
-       margin-left: auto;
+        width: 63%;
+        margin-left: auto;
     }
     &_item{ 
        
@@ -49,7 +49,7 @@
     height: 30px;
     width: 30px;
     margin-left: 40px;
-  
+    
 }
 .active{
     height: 300px;
@@ -58,16 +58,6 @@
     top: 0;
     right: 0;
     transition: transform 0.5s ease-in-out;
-}
-
-
-
-li {
-   
-}
-
-.cool-link {
-   
 }
 
 

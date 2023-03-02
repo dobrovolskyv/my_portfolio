@@ -22,7 +22,7 @@ function Time({ id }) {
             {(() => {
                
         switch (time) {
-            case (time => '20'):
+            case (time => '0'):
                 return "anything"
             case (time => '00'):
                 return "MP"

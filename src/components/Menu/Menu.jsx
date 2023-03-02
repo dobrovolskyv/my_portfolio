@@ -5,7 +5,7 @@ import {HiOutlineX} from 'react-icons/hi'
 
 function Menu({active, setActive}) {
   return (
-    <div className={active? `${s.menu}, ${s.active}` : `${s.menu}`}>
+    <div className={active? `${s.menu}, ${s.active}` : `${s.menu}`} onClick={()=>setActive(false)}>
     <div className={s.menu_wrapper}>
         <HiOutlineX className={s.burger_img} onClick={()=>setActive(false)}/>
     <ul className={s.menu_list}>
@@ -13,7 +13,7 @@ function Menu({active, setActive}) {
             <Link to='/'><p>home</p></Link>
         </li>
         <li className={s.menu_item}>
-        <Link to='/devices'><p>devices</p></Link>
+        <Link to='/devices'><p>what I use</p></Link>
         </li>
     </ul>
     </div>
@@ -22,3 +22,6 @@ function Menu({active, setActive}) {
 }
 
 export default Menu
+
+
+
