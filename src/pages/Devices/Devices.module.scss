@@ -12,7 +12,7 @@
     &_img{
         width: 36px;
         height: 36px;
-        color:white;
+        color:var(#{--body-bg-default})
         
     }
     &_list{

@@ -1,5 +1,5 @@
 $body-bg-dark: linear-gradient( 76.3deg,  rgb(21, 37, 53) 12.6%, rgb(24, 45, 63) 82.8% );
-$body-bg-light: #e6dcc2;
+$body-bg-light: linear-gradient( 76.3deg,  rgb(253, 251, 227) 22.6%, rgb(255, 252, 230) 82.8% );;
 $body-bg-default: var(--body-bg-light);
 
 /* color text */
@@ -7,6 +7,8 @@ $text-color-dark: #ffffff;
 $text-color-light: #000;
 $text-color-default: var(--text-color-dark);
 
+// color bg time
+$bg-color-light: linear-gradient(90deg, rgb(26 29 4) 0%, rgb(25 30 44) 0%, rgb(99 97 149) 100%);
 :root{
   /* body background */
   --body-bg-dark: #{$body-bg-dark};
@@ -40,8 +42,6 @@ ul,li{
 
 }
 body{
-  // background-color: $body-bg-dark;
-  // background-image: linear-gradient( 180deg,  rgb(4, 45, 62) 11.2%, rgb(4, 78, 94) 91.1% );
   background-image: var(#{--body-bg-default});
   color: var(#{--text-color-default});
   font-size: 16px;
@@ -81,8 +81,8 @@ body{
 
 h1{
   font-size: 56px;
+  line-height: 140%;
   text-align: center;
-  margin: 100px 0 ;
   display: inline-block;
 }
 #cursor{

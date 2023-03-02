@@ -18,6 +18,7 @@
     height: 30px;
     width: 30px;
     margin-right: 5px;
+    fill: var(#{--text-color-default});
 }
 .logo_text{
     color: var(#{--text-color-default});
@@ -30,13 +31,13 @@
     margin-left: auto;
     margin-right: auto;
     background: rgb(89,89,102);
-    background: linear-gradient(90deg, rgba(89,89,102,0.5) 0%, rgba(90,109,153,0.5) 0%, rgba(112,110,152,0.5) 100%);
+    background: linear-gradient(90deg, rgba(89,89,102,1) 0%, rgba(90,109,153,1) 0%, rgba(112,110,152,1) 100%);
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 8px;
-    
+    color: white;
    
 }
 .time_icon{
@@ -49,7 +50,8 @@
   
 }
 .time_text{
-    color: var(#{--text-color-default});
+    // color: var(#{--text-color-default});
+    color: white;
 }
 .color_scheme{
    
@@ -75,26 +77,4 @@
     margin-left: 40px;
     color: var(#{--text-color-default})
 }
-// .menu{
-//     position: absolute;
-//         top: 0;
-//         right: 0;
-//         width: 30%;
-//         height: 300px;
-//         background-color: rgba(255, 255, 255,0.6);
-//         transform: translateX(100%);
-//     &_wrapper{
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         justify-content: center;
-//         color: black;
-        
-//     }
-    
-// }
-// .active{
-//     transform: translateX(0%);
-// }
-
 

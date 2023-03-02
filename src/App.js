@@ -1,15 +1,11 @@
-import { useState, useEffect } from "react";
-import { Link, Routes, Route } from "react-router-dom"
-import { motion } from "framer-motion"
+import { Routes, Route } from "react-router-dom"
 import "./index.scss"
 import HomeScreen from './pages/Home/Home';
 import Experience from "./pages/Experience/Experience";
-import About from './components/About/About'
+
 
 // import {TweenMax, GSAP} from 'gsap';
 import NavBar from './components/NavBar/NavBar';
-import Header from "./components/Header/Header";
-import Works from "./pages/Works/Works";
 import Footer from "./components/Footer/Footer";
 import Devices from "./pages/Devices/Devices";
 import Macbook from './pages/Devices/Macbook/Macbook'
