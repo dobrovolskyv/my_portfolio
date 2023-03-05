@@ -6,7 +6,7 @@ import { storage } from '../model/Storage'
 
 export function ThemeProvider({children, ...props}){
 
-    const [theme, setTheme] = useState(storage.getItem('theme'))
+    const [theme, setTheme] = useState(storage.getItem('theme') || 'dark')
 
     changeCssRoutVariables(theme)
     function changeTheme(theme){

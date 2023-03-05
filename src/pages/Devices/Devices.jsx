@@ -6,10 +6,13 @@ import {SlEarphones} from 'react-icons/sl'
 import s from './Devices.module.scss'
 
 
+
+
 function Devices() {
   return (
     <div className={s.container}>
     <div className={s.devices}>
+       
         <h2 className={s.devices_title}>My devices</h2>
         <p className={s.devices_subtitle}>A curated list of the tech I use</p>
         <p className={s.devices_subtitle}>As an Front-end developer, I've been spending hours and hours at my desk every day. So, I've been continuously improving my workspace in order to boost my productivity and some essential tools to help me get the work done.</p>

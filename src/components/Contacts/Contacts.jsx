@@ -1,7 +1,8 @@
 import React from 'react'
 import s from './Contacts.module.scss'
 import { FaFacebookF, FaInstagram, FaTelegramPlane, FaSpotify, FaLinkedinIn, FaExternalLinkAlt, FaGithub, FaArtstation } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi'
+import { ContactUs } from '../FormSubmit/FormSubmit';
+
 
 function Contacts() {
   return (
@@ -9,14 +10,7 @@ function Contacts() {
       <div className={s.right}>
         <div className={s.contacts_email}>
           <p className={s.contacts_text}>Do you have any questions or would like to receive further information about my work? Feel free to contact me through the following links below or connect with me directly on social media.Let's have a chat and see to what kind of an amazing project we are headed to.</p>
-          <form action="" className={s.form}>
-            <div className={s.form_inputs}>
-              <input className={s.form_input} type="text" placeholder='Name'/>
-              <input className={s.form_input} type="email" pattern=".+@globex\.com" placeholder='Email'/>
-            </div>
-            <textarea className={s.form_textarea} name="" placeholder="Message"></textarea>
-            <button className={s.form_btn}>Submit<HiOutlineMail /></button>
-          </form>
+          <ContactUs/>
         </div>
       </div>
       <div className={s.left}>

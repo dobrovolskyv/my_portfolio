@@ -19,14 +19,14 @@ function App() {
   return (
     <div className="container">
       <NavBar className="nav" />
-      <Routes>
+      <Routes >
         <Route path='/' element={<HomeScreen />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/devices' element={<Devices />} />
         <Route path='/devices/macbook' element={<Macbook />} />
         <Route path='/devices/monitor' element={<Monitor />} />
       </Routes>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

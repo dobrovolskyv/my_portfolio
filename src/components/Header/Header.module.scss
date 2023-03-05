@@ -44,8 +44,10 @@
 
 .tabs {
     &_wrapper {
+        cursor: grabbing;
         width: 100%;
-        background:  #434B4D;
+        // background:  #434B4D;
+        background-color: #454851;
         color: white;
         height: 600px;
         border-radius: 10px;
@@ -54,7 +56,8 @@
         overflow: hidden;
     }
     &_head{
-        background-color: #24211e;
+        // background-color: #24211e;
+        background-color: #22242e;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
       
@@ -121,3 +124,5 @@
     display: flex;
     align-items: center;
 }
+
+

@@ -7,12 +7,14 @@ import Works from "../Works/Works"
 
 
 
+
 function HomeScreen() {
     const [mousePosition, setMousePosition] = useState({
         x: 0,
         y: 0
       })
       const [cursorVariant, setCursorVarivant] = useState('default')
+      
     
       useEffect(() => {
         const mouseMove = e => {

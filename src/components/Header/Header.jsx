@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Link,  } from 'react-router-dom'
 import s from "./Header.module.scss"
 
+
+
 import Contacts from '../Contacts/Contacts.jsx'
 import ExperienceInfo from '../ExperienceInfo/ExperienceInfo';
 import About from '../About/About';
@@ -15,7 +17,7 @@ function Header({textEnter, textLeave}) {
   function toggleTab(index) {
     setToggleState(index)
   }
- 
+
 
   return (
     <div className={s.header_container}>
@@ -27,7 +29,8 @@ function Header({textEnter, textLeave}) {
        
         <p className={s.subtitle}>I'm a Front-end developer who has unending enthusiasm for solving problems and learning new knowledge.</p>
       </div>
-      <div className={s.tabs_wrapper}>
+      
+      <div className={s.tabs_wrapper} >
         <div className={s.tabs_head}>
           <div className={s.tabs_content}>
             <Link className={s.tabs_link} to='/'>
@@ -70,7 +73,8 @@ function Header({textEnter, textLeave}) {
         </div>
 
       </div>
-
+    
+     
     </div>
   )
 }

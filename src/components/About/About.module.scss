@@ -71,27 +71,14 @@
     position: relative;
     &::after{
         content: '';
-        width: 50%;
+        width: 40%;
         height: 100%;
         background-color: white;
         position: absolute;
         top: 0;
     }
 }
-.statusbar_react{
-    width: 100px;
-    height: 10px;
-    border: 1px solid white;
-    position: relative;
-    &::after{
-        content: '';
-        width: 50%;
-        height: 100%;
-        background-color: white;
-        position: absolute;
-        top: 0;
-    }
-}
+
 .statusbar_ts{
     width: 100px;
     height: 10px;
@@ -113,7 +100,7 @@
     position: relative;
     &::after{
         content: '';
-        width: 30%;
+        width: 20%;
         height: 100%;
         background-color: white;
         position: absolute;

@@ -6,7 +6,7 @@
     justify-content: space-between;
     z-index: 10;
     position: relative;
-    margin-top: 10px;
+    padding-top: 10px;
    
 }
 .logo{
@@ -31,7 +31,9 @@
     margin-left: auto;
     margin-right: auto;
     background: rgb(89,89,102);
-    background: linear-gradient(90deg, rgba(89,89,102,1) 0%, rgba(90,109,153,1) 0%, rgba(112,110,152,1) 100%);
+    // background: linear-gradient(90deg, rgba(89,89,102,1) 0%, rgba(90,109,153,1) 0%, rgba(112,110,152,1) 100%);
+    background: linear-gradient(90deg, rgb(32, 32, 53) 0%, rgb(25, 42, 83) 10%,rgb(199, 175, 197) 60%, rgb(186, 190, 197) 100%);
+
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
