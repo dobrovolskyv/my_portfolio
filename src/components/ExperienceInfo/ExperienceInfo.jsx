@@ -15,8 +15,7 @@ function ExperienceInfo() {
                     <div className={s.works_box}>
                         <p className={s.works_position}>Software Engineer</p>
                         <p className={s.works_stack}>HTML,SCSS, JAVASCRIPT, GULP</p>
-                        <p className={s.works_descr}>Engineered and maintained major features of Starry's customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS
-                            Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Starry Station</p>
+                        <p className={s.works_descr}>Highly skilled in front-end development, I have a holistic approach to build performant and secure websites and apps that deliver great user experiences and business values.</p>
                     </div>
                 </div>
                 <div className={s.works_list}>
@@ -27,7 +26,7 @@ function ExperienceInfo() {
                     <div className={s.works_box}>
                         <p className={s.works_position}>HTML-developer</p>
                         <p className={s.works_stack}>HTML,SCSS, JAVASCRIPT, GULP</p>
-                        <p className={s.works_descr}>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</p>
+                        <p className={s.works_descr}>Developed and maintained code for in-house and client websites primarily using HTML, CSS, SCSS, JavaScript.</p>
                     </div>
                 </div>
             </div>
