@@ -125,3 +125,34 @@
 }
 
 
+@media (max-width: 700px) {
+    .tabs_wrapper {
+     
+        height: 700px;
+    
+    }
+
+}
+@media (max-width: 600px) {
+    .tabs_wrapper {
+     
+        height: 700px;
+    
+    }
+    .info__present {
+        margin: 60px 0;
+      
+        
+    }
+    .undertitle{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .title {
+        font-size: 40px;
+        line-height: 140%;
+        margin-top: 10px;
+    
+    }
+    
+}

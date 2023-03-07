@@ -110,6 +110,7 @@
         align-items: center;
         &:hover{
             color: white;
+            border-bottom: 1px solid white;
         }
     }
 }
@@ -124,4 +125,19 @@
     align-items: center;
     justify-content: center;
     
+}
+
+@media (max-width: 700px) {
+    .form{
+        &_input{
+            height: 40px;
+        }
+        &_textarea{
+            height: 80px;
+        }
+        &_btn{
+            width: 100%;
+        }
+    }
+   
 }

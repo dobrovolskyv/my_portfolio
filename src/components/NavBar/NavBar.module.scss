@@ -1,5 +1,7 @@
 @import '../../index.scss';
 .navbar_wrapper{
+    width: 100%;
+    padding: 0 5px;
     position: relative;
     display: flex;
     align-items: center;
@@ -80,3 +82,13 @@
     color: var(#{--text-color-default})
 }
 
+
+@media (max-width: 600px) {
+    .time_wrapper{
+        width: 150px;
+    }
+    .time_text{
+        display: none;
+    }
+    
+}

@@ -4,15 +4,18 @@ import img from '../../img/img1.png'
 
 function Works() {
   return (
-    <div>
+    <div className={s.works}>
       <div className={s.works_wrapper}>
         <h2 className={s.works_title}>My projects</h2>
         <div className={s.works_content}>
           <div className={s.works_inner}>
-              <a href="https://dobrovolskyv.github.io/tester/" target="_blank">
+            <div >
+               <a href="https://dobrovolskyv.github.io/tester/" target="_blank" rel="noreferrer">
               <img className={s.works_img} src={img} alt="vokov fit" />
 
               </a>
+            </div>
+             
             <div className={s.works_inner_textbox}>
               <p className={s.works_undertitle}>&#60;project&#62;</p>
               <h3>Volkov-fit</h3>
