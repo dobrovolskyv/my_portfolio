@@ -6,17 +6,17 @@
     &_list{
         display: flex;
         justify-content: space-between;
-        margin-top: 20px;
+        margin-top: 50px;
     }
     &_item{
-        width: 200px;
+        width: 20%;
         margin-right: 30px;
     }
     &_date{
         font-size: 14px;
     }
     &_box{
-        width: 500px;
+      width: 500px;
     }
     &_position{
         font-weight: 700;
@@ -30,3 +30,28 @@
     }
 }
 
+@media (max-width: 465px) {
+    .container{
+        margin-top: 20px;
+        padding: 0;
+    }
+    .works{
+        &_list{
+            flex-direction: column;
+        }
+        &_box{
+            max-width: 100%;
+          }
+      
+    }
+}
+@media (max-width: 465px) {
+    .works{
+        &_list{
+            margin-top: 30px;
+        }
+        &_box{
+
+        }
+    }
+}

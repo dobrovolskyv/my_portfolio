@@ -55,7 +55,7 @@ function HomeScreen() {
   
     return (
         <div className={s.content}>
-             <motion.div id='cursor' variants={variants} animate={cursorVariant} />
+             <motion.div id='cursor' variants={variants} animate={cursorVariant} className={s.cursor}/>
             <Header  textEnter={textEnter} textLeave={textLeave} />
             <Works/>
 

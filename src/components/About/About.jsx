@@ -9,17 +9,10 @@ function About() {
       <div className={s.about_info}>
         <ul className={s.tabs_list}>
           <li className={s.tabs_item}>
-            <p className={s.tabs_text}><span className={s.tabs_span}>1.</span> <span className={s.tabs_span_text}>&#60;p&#62;</span>  Im Vlados, a front-end developer based now in Batumi, Geaorgia. <span className={s.tabs_span_text}>&#60;/p&#62;</span></p>
-          </li>
+            <p className={s.tabs_text}><span className={s.tabs_span}>1.</span> <span className={s.tabs_span_text}>&#60;p&#62;</span>  I’m currently working at ____: The digital agency that harness the power of brands. At ____ we work with start-ups as well as established brands, crafting phenomenal digital products to help bring brands stand out in the crowd. <span className={s.tabs_span_text}>&#60;/p&#62;</span></p>
+          </li>  
           <li className={s.tabs_item}>
-            <p className={s.tabs_text}><span className={s.tabs_span}>2.</span> I’m currently working at ____: The digital agency that harness the power of brands. At ____ we work with start-ups as well as established brands, crafting phenomenal digital products to help bring brands stand out in the crowd.</p>
-          </li>
-          {/* <li className={s.tabs_item}>
-            <p className={s.tabs_text}><span className={s.tabs_span}>3.</span> During my "spare" time, Im also working on freelance. This new fitness app helps you to reach your goals and stay on track with a sleek interface. It has everything from workout plans, food diary tools or even fasting tracker so there is no need for multiple apps anymore.</p>
-          </li> */}
-  
-          <li className={s.tabs_item}>
-            <p className={s.tabs_text}><span className={s.tabs_span}>3.</span> Over the years I have spent time converting designs into
+            <p className={s.tabs_text}><span className={s.tabs_span}>2.</span> Over the years I have spent time converting designs into
               pixel-perfect, performant,accessible and responsive applications/websites.I have always been excited about the entire development spectrum. Well what can I say,I sincerely simply love working on ambitious projects with positive people
               in a conducive work environment.</p>
           </li>

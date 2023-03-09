@@ -39,9 +39,6 @@ function Devices() {
             <li className={s.devices_item}></li>
           </ul>
         </div>
-        {/* <Link to='/devices/macbook'>macbook</Link>
-       <Link to='/devices/monitor'>monitor</Link> */}
-
       </div>
       <div className={s.technologies}>
         <h2 className={s.devices_title}>I'm work with next tools</h2>

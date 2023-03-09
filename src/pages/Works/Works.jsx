@@ -22,6 +22,7 @@ function Works() {
               <p className={s.works_descr}>
                 A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
               </p>
+              <div>
               <ul className={s.works_list}>
                 <li className={s.works_item}>
                   <p>GULP</p>
@@ -33,6 +34,7 @@ function Works() {
                   <p>JAVASCRIPT</p>
                 </li>
               </ul>
+              </div>
             </div>
           </div>
         </div>
