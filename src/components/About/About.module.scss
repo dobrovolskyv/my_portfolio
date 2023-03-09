@@ -172,3 +172,13 @@
     }
     
 }
+@media (max-width: 390px){
+    .tabs{
+        &_span{
+            margin-right: 0;
+        }
+        &_text{
+            font-size: 16px;
+        }
+    }
+} 

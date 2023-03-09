@@ -61,5 +61,11 @@
     transition: transform 0.5s ease-in-out;
 }
 
-
+@media (max-width: 390px) {
+ .menu{
+    &_wrapper{
+        margin-right: 6px;
+    }
+ }
+}
 

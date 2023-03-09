@@ -1,4 +1,5 @@
-import React, { useState, useCallback, useEffect} from 'react'
+import React, { useState, } from 'react'
+import s from './Time.module.scss'
 import { CiCoffeeCup } from 'react-icons/ci';
 import { GiBeard } from 'react-icons/gi'
 
@@ -18,7 +19,7 @@ function Time({ id }) {
 
 
     return (
-        <div>
+        <div className={s.time}>
             {(() => {
                
         switch (time) {

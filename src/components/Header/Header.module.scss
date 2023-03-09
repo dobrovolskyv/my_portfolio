@@ -141,8 +141,7 @@
     }
     .info__present {
         margin: 60px 0;
-      
-        
+       
     }
     .undertitle{
         font-size: 40px;
@@ -155,4 +154,37 @@
     
     }
     
+}
+
+@media (max-width: 390px) {
+   
+    .header_container {
+        margin-top: 50px;
+        width: 95%;
+    }
+
+    .info__present {
+        margin-top: 0px;
+    }
+    .undertitle, 
+    .title{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .subtitle{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .tabs{
+        &_wrapper{
+            margin-top: 40px;
+        }
+        &_content div{
+            padding: 6px;
+        }
+        &_bot{
+            padding: 0 5px 0 10px;
+        }
+       
+    }
 }
