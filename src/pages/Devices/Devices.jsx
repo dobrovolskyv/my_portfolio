@@ -61,7 +61,7 @@ function Devices() {
           </p>
         </div>
         <div className={s.tool_contentbox}>
-          <h3 className={s.tool}>3D modleing</h3>
+          <h3 className={s.tool}>3D modeling</h3>
           <p className={s.tool_subtitle}>
             To unload my head from coding, I sometimes create 3d models. I create and render models in Blender, bake and textures in Substance Painter. I also sculpt models in Zbrush and recently Blender has been giving me good sculpting capabilities. I highly recommend sitting down and unpacking your head and making low-poly models!
           </p>

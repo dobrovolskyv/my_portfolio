@@ -5,6 +5,7 @@ import img from '../../img/img1.png'
 function Works() {
   return (
     <div className={s.works}>
+      
       <div className={s.works_wrapper}>
         <h2 className={s.works_title}>My projects</h2>
         <div className={s.works_content}>

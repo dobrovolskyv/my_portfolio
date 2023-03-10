@@ -7,6 +7,7 @@ import { ContactUs } from '../FormSubmit/FormSubmit';
 function Contacts() {
   return (
     <div className={s.contacts_wrapper}>
+      
       <div className={s.right}>
         <div className={s.contacts_email}>
           <p className={s.contacts_text}>Do you have any questions or would like to receive further information about my work? Feel free to contact me through the following links below or connect with me directly on social media.Let's have a chat and see to what kind of an amazing project we are headed to.</p>
