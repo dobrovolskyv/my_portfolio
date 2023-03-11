@@ -10,7 +10,7 @@ function Time() {
 
 
 
-    const [currentTime, setCurrentTime] = useState('00');
+    const [currentTime, setCurrentTime] = useState('15');
 
     const updateTime = () => {
         let time = new Date().toLocaleTimeString();
@@ -20,8 +20,6 @@ function Time() {
     useEffect(() => {
         setInterval(updateTime, 1000)
     }, [currentTime])
-
-    console.log();
 
     return (
         <div className={s.time}>
@@ -55,7 +53,7 @@ function Time() {
                             <p className={s.time_do}>I'm currently gaming</p>
                             </div>
                             )
-                    case '00' || '01' ||  '02' ||'03' :
+                    case '00' || '01' || '02' ||'03'|| '04' ||  '05' ||'06' || '07' || '08' || '09'   :
                         return (
                             <div className={s.time_wrapper}>
                             <GiNightSleep className={s.time_img}/>
@@ -63,7 +61,12 @@ function Time() {
                             </div>
                             )
                     default:
-                        return null
+                        return (
+                            <div className={s.time_wrapper}>
+                            <CiLaptop  className={s.time_img}/>
+                            <p className={s.time_do}>I'm currently working</p>
+                            </div>
+                            )
                 }
             })()}
 
