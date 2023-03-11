@@ -27,38 +27,9 @@
     font-size: 18px;
     
 }
-.time_wrapper {
-    width: 350px;
-    padding: 2px 4px;
-    margin-left: auto;
-    margin-right: auto;
-    background: rgb(89,89,102);
-    // background: linear-gradient(90deg, rgba(89,89,102,1) 0%, rgba(90,109,153,1) 0%, rgba(112,110,152,1) 100%);
-    background: linear-gradient(90deg, rgb(32, 32, 53) 0%, rgb(25, 42, 83) 10%,rgb(198, 152, 195) 60%, rgb(158, 113, 169) 100%);
 
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 8px;
-    color: white;
-   
-}
-.time_icon{
-    background-color: rgb(232, 246, 251);
-    border-radius: 50%;
-    padding: 2px;
-    height: 25px;
-    width: 25px;
-    color: black;
-  
-}
-.time_text{
-    // color: var(#{--text-color-default});
-    color: white;
-}
+
 .color_scheme{
-   
     height: 30px;
     
  
@@ -83,15 +54,7 @@
 }
 
 
-@media (max-width: 600px) {
-    .time_wrapper{
-        width: 150px;
-    }
-    .time_text{
-        display: none;
-    }
-    
-}
+
 @media (max-width: 390px) {
     .time_wrapper{
         width: 50px;

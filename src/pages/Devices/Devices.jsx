@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import { BsLaptop, BsFillKeyboardFill } from 'react-icons/bs'
 import { FiMonitor } from 'react-icons/fi'
 import { SlEarphones } from 'react-icons/sl'

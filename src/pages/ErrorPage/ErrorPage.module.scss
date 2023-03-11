@@ -1,0 +1,36 @@
+.error{
+    margin: 390px 0;
+    text-align: center;
+   
+    &_title{
+        font-size: 46px;
+        line-height: 140%;
+    }
+}
+@media (max-width: 500px){
+    .error{
+        margin: 340px 0;
+        &_title{
+            font-size: 40px;
+            line-height: 140%;
+        }
+    }
+}
+@media (max-width: 400px){
+    .error{
+        margin: 110px 0 520px;
+        &_title{
+            font-size: 36px;
+            line-height: 140%;
+        }
+    }
+}
+@media (max-width: 300px){
+    .error{
+        margin: 110px 0 550px;
+        &_title{
+            font-size: 30px;
+            line-height: 140%;
+        }
+    }
+}

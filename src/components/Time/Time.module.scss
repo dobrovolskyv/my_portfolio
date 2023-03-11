@@ -1,5 +1,41 @@
-@media (max-width: 390px) {
+.time {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(89,89,102);
+    // background: linear-gradient(90deg, rgba(89,89,102,1) 0%, rgba(90,109,153,1) 0%, rgba(112,110,152,1) 100%);
+    background: linear-gradient(90deg, rgb(32, 32, 53) 0%, rgb(25, 42, 83) 10%,rgb(198, 152, 195) 60%, rgb(158, 113, 169) 100%);
+    border-radius: 20px;
+    padding: 2px 8px;
+   
+}
+.time_wrapper{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.time_img{
+    height: 30px;
+    width: 30px;
+    fill: white;
+}
+.time_do{
+    color: white;
+    font-size: 18px;
+    line-height: 140%;
+    
+}
+@media (max-width: 600px) {
+   
+  
+   
+}
+@media (max-width: 460px) {
     .time{
+        width: 38px;
+        padding: 2px 4px;
+    }
+    .time_do{
         display: none;
     }
 }
