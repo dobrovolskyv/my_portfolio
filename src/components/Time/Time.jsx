@@ -32,28 +32,47 @@ function Time() {
                             <p className={s.time_do}>I'm currently drink coffe</p>
                             </div>
                             )
-                    case '11'|| '12' ||  '13' ||'14' || '15' ||  '16' || '17' || '18':
+                    case '11':
+                    case '12':
+                    case '13':
+                    case '14':
+                    case '15':
+                    case '16':
+                    case '17':
+                    case '18':
                         return (
                             <div className={s.time_wrapper}>
                             <CiLaptop  className={s.time_img}/>
                             <p className={s.time_do}>I'm currently working</p>
                             </div>
                             )
-                    case '19' || '20':
+                        case '19':
+                        case '20':
                         return (
                         <div className={s.time_wrapper}>
                         <CgGym  className={s.time_img}/>
                         <p className={s.time_do}>I'm currently training</p>
                         </div>
                         )
-                    case '21' ||  '22' ||'23' :
+                    case  '21' :
+                    case  '22' :
+                    case  '23' :
                         return (
                             <div className={s.time_wrapper}>
                             <FaPlaystation className={s.time_img}/>
                             <p className={s.time_do}>I'm currently gaming</p>
                             </div>
                             )
-                    case '00' || '01' || '02' ||'03'|| '04' ||  '05' ||'06' || '07' || '08' || '09'   :
+                    case '00':
+                    case '01':
+                    case '02':
+                    case '03':
+                    case '04':
+                    case '05':
+                    case '06':
+                    case '07':
+                    case '08':
+                    case '09':
                         return (
                             <div className={s.time_wrapper}>
                             <GiNightSleep className={s.time_img}/>
@@ -69,6 +88,7 @@ function Time() {
                             )
                 }
             })()}
+        
 
         </div>
     )

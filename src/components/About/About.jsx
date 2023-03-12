@@ -8,8 +8,11 @@ function About() {
     <div className={s.about_container}>
       <div className={s.about_info}>
         <ul className={s.tabs_list}>
-          <li className={s.tabs_item}>
+          {/* <li className={s.tabs_item}>
             <p className={s.tabs_text}><span className={s.tabs_span}>1.</span> <span className={s.tabs_span_text}>&#60;p&#62;</span>  I’m currently working at ____: The digital agency that harness the power of brands. At ____ we work with start-ups as well as established brands, crafting phenomenal digital products to help bring brands stand out in the crowd. <span className={s.tabs_span_text}>&#60;/p&#62;</span></p>
+          </li>   */}
+          <li className={s.tabs_item}>
+            <p className={s.tabs_text}><span className={s.tabs_span}>1.</span> <span className={s.tabs_span_text}>&#60;p&#62;</span>  I’m currently working at freelance. I'm  work with start-ups as well as established brands, crafting phenomenal digital products to help bring brands stand out in the crowd. <span className={s.tabs_span_text}>&#60;/p&#62;</span></p>
           </li>  
           <li className={s.tabs_item}>
             <p className={s.tabs_text}><span className={s.tabs_span}>2.</span> Over the years I have spent time converting designs into
